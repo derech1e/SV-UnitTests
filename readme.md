@@ -7,7 +7,7 @@ Diese Dokumentation soll das erstellen von Unit-Tests mithilfe von MS-Test für 
 
 1. [Erstellen des Testprojekts](#create)
 2. [Aufbau einerTestklasse](#structure)
-3. [Test operatoren](#operators)
+3. [Assert Methode](#operators)
 4. [Test starten](#testing)
 
 **Checkout oder Download des [Ausgangsprojektes](https://github.com/derech1e/SV-UnitTests/archive/refs/heads/master.zip).**
