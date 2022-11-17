@@ -8,12 +8,16 @@ using System.Threading.Tasks;
 
 namespace SV.Tests
 {
-    [TestClass()]
+    /// <summary>
+    /// Einfache Tests zum testen von der Klasse Fach
+    /// </summary>
+
+    [TestClass()] // Atribute für die Klasse
     public class FachTests
     {
         private readonly Fach ExpectedFach_MathBs = new Fach("Mathematik;Berufsschule");
 
-        [TestMethod()]
+        [TestMethod()] // Atribute für die Methode
         public void bastelnFIDTest_MathBs()
         {
             Assert.AreEqual(ExpectedFach_MathBs.bastelnFID(), "MathBS");
