@@ -1,4 +1,5 @@
 # Dokumentation zum erstellen eines automatisches Testverfahren
+(Aufgabe 4 VP 2017 A2.6 Zusatz)
 
 Diese Dokumentation soll das erstellen von Unit-Tests mithilfe von MS-Test für das .NET Framework in Visual Studio erläutern.
 
@@ -17,8 +18,8 @@ Rechtsklich auf die Klasse `Fach` und auf den Kontextmenüeintrag `Komponentente
 
 > Um die Methode `bastelnFID` testen zu können muss diese den Zugriffsmodifizierer `public` besitzen.
 
-(Aufgabe 4 VP 2017 A![0_ContextMenu.png](assets/img/0_ContextMenu.png)
-2.6 Zusatz)
+![0_ContextMenu.png](assets/img/0_ContextMenu.png)
+
 
 Als nächstes öffnet sich ein Dialog zum erstellen eines Testprojekts. In diesem kann man verschiedene Testframeworks und Namensgebungen festlegen.
 
@@ -28,7 +29,7 @@ Als nächstes öffnet sich ein Dialog zum erstellen eines Testprojekts. In diese
 
 Im Projektexplorer wurde nun ein neues Projekt innerhalb der Projektmappe erstellt. Dieses Projekt ist ausschließlich zum testen von Klassen und Komponenten zu verwenden.
 
-![2_NewProjectView.png](assets/2_NewProjectView.png)
+![2_NewProjectView.png](assets/img/2_NewProjectView.png)
 
 ## <a name="structure"></a>Aufbau einer Testklasse
 
@@ -48,7 +49,7 @@ Mithilfe der Assert Methode wird die Testlogik realisiert. `Assert` überprüft 
 
 > Es ist sehr hilfreich die Intellisense und die Beschreibung der jeweiligen Methoden zu lesen und benutzen.
 
-![7_Intellisense.png](assets/7_Intellisense.png)
+![7_Intellisense.png](assets/img/7_Intellisense.png)
 
 #### Testfall #1
 
@@ -70,13 +71,13 @@ Wenn die beide Werte gleich sind ist der Test erfolgreich.
 
 #### Fertige Tests
 
-![6_Test_Final.png](assets/6_Test_Final.png)
+![6_Test_Final.png](assets/img/6_Test_Final.png)
 
 ## <a name="testing"></a>Test starten
 
 Über die Menüleiste können nun alle Tests gestartet werden. Es öffnet sich ein Fenster mit einer Testübersicht.
 
-![5_Start_TEST.png](assets/5_Start_TEST.png)
-![8_Testwindow.png](assets/8_Testwindow.png)
+![5_Start_TEST.png](assets/img/5_Start_TEST.png)
+![8_Testwindow.png](assets/img/8_Testwindow.png)
 
 # Die fertige Projektmappe ist unter dem Branch [Loesung ](https://github.com/derech1e/SV-UnitTests/tree/loesung)zu finden
