@@ -1,4 +1,4 @@
-# Dokumentation zum erstellen eines automatisches Testverfahren
+# Dokumentation zum Erstellen eines automatisches Testverfahren
 (Aufgabe 4 VP 2017 A2.6 Zusatz)
 
 Diese Dokumentation soll das erstellen von Unit-Tests mithilfe von MS-Test für das .NET Framework in Visual Studio erläutern.
