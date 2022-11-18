@@ -82,4 +82,6 @@ Wenn die beide Werte gleich sind, ist der Test erfolgreich.
 
 # Die fertige Projektmappe ist unter dem Branch [Loesung](https://github.com/derech1e/SV-UnitTests/tree/loesung) zu finden.
 
+Weitere Beispiele sind in der Repository [LernsituationOOP](https://github.com/derech1e/LernsituationOOP) im Testprojekt zu finden. 
+
 Erstellt von Thomas Nürk © 2022
